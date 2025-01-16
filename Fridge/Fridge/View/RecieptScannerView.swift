@@ -14,7 +14,8 @@ struct ReceiptScannerView: View {
     @State private var selectedItem: PhotosPickerItem? = nil
     @State private var selectedImage: UIImage? = nil
     @State private var recognizedText: String = "No text recognized yet."
-    let openAI = OpenAI(apiToken: "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")
+    let openAI = "key here"
+    
     @State private var jsonOutput: String = "No JSON generated yet."
     
     var body: some View {
